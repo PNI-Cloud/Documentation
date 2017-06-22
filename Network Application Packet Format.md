@@ -1,6 +1,6 @@
 
 # PNI Network Application Packet Format #
-The PNI network application packet format are a set if json documents that define data interchange between Lora network providers and the PNI PlacePod application.
+The PNI network application packet format are a pair json documents that define data interchange between Lora network providers and the PNI PlacePod application.
 
 This format is the same regardless of transport. The same JSON is sent/received over both MQTT and REST.
 
