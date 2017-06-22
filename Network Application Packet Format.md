@@ -17,22 +17,13 @@ This format is for network providers only.
 
 ## Uplink ##
 	{
-	    "channel": 5,
-	    "datarate": 3,
-	    "devEui": "008000000400069D",
-	    "dup": false,
-	    "freq": 903.3,
-	    "gwEui": "00250C0001000262",
-	    "joinId": 9,
-	    "maxSnr": 15,
-	    "minSnr": 6,
-	    "pdu": "1503180000C8419A9969400000F7B7B501",
-	    "port": 1,
-	    "rssi": -25,
-	    "seqno": 75,
-	    "snr": 10,
-	    "statusMsg": "Uplink Received",
-	    "success": true,
-	    "txpower": 30,
-	    "txtime": "2017-04-27T23:04:07.109Z"
+	    "devEui": "008000000400069D", // Placepod DevEUI						
+	    "freq": 903.3,  			  // frequency used for transmission
+	    "gwEui": "00250C0001000262",  // DevEUI of receiving gateway
+	    "data": "QD==", 			  // Base64 encoded payload
+	    "rxtime": "2017-04-27T23:04:07.109Z" 
+									  // time received at gateway
+    	"snr": 10, 					  // signal to noise ratio for packet
+		"rssi": -25, 				  // Rssi of packet 
+		"per": 0.0, 				  // Packet error rate of gateway
 	}
