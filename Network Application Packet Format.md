@@ -11,8 +11,9 @@ Commands like "Recalibrate" sent to the PlacePod Sensor.
 
     {
       "confirmed": true, // Do we need an ack?
-      "data": "string", // Base64 encoded payload
-      "devEUI": "string", // Device EUI
+      "dataBase64": "QRda1==", // Base64 encoded payload
+      "dataHex": "023456789ABCDF" // Hex encoded payload
+      "devEUI": "008000000400069D", // Device EUI
       "fPort": 0, 
       "reference": "string" //  recalibrate, configure etc. 
     }
@@ -24,7 +25,8 @@ Car Presence messages and data from the sensor
 	    "devEui": "008000000400069D", // Placepod DevEUI						
 	    "freq": 903.3,                // frequency used for transmission
 	    "gwEui": "00250C0001000262",  // DevEUI of receiving gateway
-	    "data": "QD==",               // Base64 encoded payload
+            "dataBase64": "QRda1==", // Base64 encoded payload
+      	    "dataHex": "023456789ABCDF" // Hex encoded payload
 	    "rxtime": "2017-04-27T23:04:07.109Z" 
 					  // time received at gateway
 	    "snr": 10,                    // signal to noise ratio for packet
