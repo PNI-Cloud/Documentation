@@ -32,4 +32,5 @@ Car Presence messages and data from the sensor
 		"snr": 10,                    // signal to noise ratio for packet
 		"rssi": -25,                  // Rssi of packet 
 		"per": 0.0,                   // Packet error rate of gateway
+		"fCnt": 126                   // Frame Count. This field is optional.
 	}
