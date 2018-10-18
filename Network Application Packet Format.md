@@ -27,10 +27,10 @@ Car Presence messages and data from the sensor
 		"gwEui": "00250C0001000262",  // DevEUI of receiving gateway
 		"dataBase64": "FQEYAACoQckeZkAAAOq2r6I=", // Base64 encoded payload OR
 		"dataHex": "023456789ABCDF" // Hex encoded payload
-		"rxtime": "2017-04-27T23:04:07.109Z" 
-					      // time received at gateway
+		"rxtime": "2017-04-27T23:04:07.109Z" // time received at gateway
 		"snr": 10,                    // signal to noise ratio for packet
 		"rssi": -25,                  // Rssi of packet 
 		"per": 0.0,                   // Packet error rate of gateway
 		"fCnt": 126                   // Frame Count. This field is optional.
+		"port": 3                     // LoRa port, used to know how to decode packet.
 	}
