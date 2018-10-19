@@ -35,7 +35,7 @@ All fields are **required** unless stated otherwise
     "rxtime": "2017-04-27T23:04:07.109Z"      // time received at gateway
     "snr": 10,                                // signal to noise ratio for packet
     "rssi": -25,                              // Rssi of packet 
-    "count": 126                             // Frame Count. This field is optional.
+    "count": 126                              // Frame Count. This field is optional.
     "port": 3                                 // LoRa port, used to know how to decode packet (required for R05)
     "per: 0                                   // Packet error rate. This field is optional.
 }
